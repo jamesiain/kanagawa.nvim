@@ -90,4 +90,7 @@ function M.load()
     set_highlights(hlgroups)
 end
 
+-- keep for backward compatibility
+M.colorscheme = M.load
+
 return M
